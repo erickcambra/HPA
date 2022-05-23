@@ -22,7 +22,7 @@ public class AreaYPerimetro{
                     case 1: 
                     System.out.println("Introduzca el valor de uno de los lados:");
                     b=Integer.parseInt(guard.readLine());
-                    area= b*b;
+                    area= b+b;
                     perimetro=b+b+b+b;
                     System.out.println("El Area es="+ area +  " el Perimetro es=" + perimetro);
                     break;
